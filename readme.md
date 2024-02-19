@@ -21,6 +21,7 @@ cd RAD-NeRF
 
 ### Install dependency
 ```bash
+sudo apt-get update
 # for ubuntu, portaudio is needed for pyaudio to work.
 sudo apt install portaudio19-dev
 
