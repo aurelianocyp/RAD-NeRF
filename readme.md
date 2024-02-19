@@ -79,6 +79,7 @@ cd ../..
 * Run script (may take hours dependending on the video length)
     ```bash
     # run all steps
+    conda install ffmpeg
     python data_utils/process.py data/<ID>/<ID>.mp4
 
     # if you want to run a specific step 
