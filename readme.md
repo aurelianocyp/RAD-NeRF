@@ -182,6 +182,7 @@ python main.py data/obama/ --workspace trial_obama_torso/ -O --torso --test --gu
 # test with specific audio & pose sequence
 # --test_train: use train split for testing
 # --data_range: use this range's pose & eye sequence (if shorter than audio, automatically mirror and repeat)
+# 在data文件夹中放置语音的npy文件
 python main.py data/obama/ --workspace trial_obama_torso/ -O --torso --test --test_train --data_range 0 100 --aud data/intro_eo.npy
 ```
 
