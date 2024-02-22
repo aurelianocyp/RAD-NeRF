@@ -160,6 +160,7 @@ First time running will take some time to compile the CUDA extensions.
 # `--preload 0`: load from disk (default, slower).
 # `--preload 1`: load to CPU, requires ~70G CPU memory (slightly slower)
 # `--preload 2`: load to GPU, requires ~24G GPU memory (fast)
+# workspace: 存放中间过程产生文件的文件夹
 python main.py data/obama/ --workspace trial_obama/ -O --iters 200000
 
 # train (finetune lips for another 50000 steps, run after the above command!)
